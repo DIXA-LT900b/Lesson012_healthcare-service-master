@@ -1,6 +1,6 @@
-package ru.netology.patient.repository;
+package ru.dixa.patient.repository;
 
-import ru.netology.patient.entity.PatientInfo;
+import ru.dixa.patient.entity.PatientInfo;
 
 public interface PatientInfoRepository {
 

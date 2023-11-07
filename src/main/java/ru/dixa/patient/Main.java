@@ -1,4 +1,4 @@
-package ru.netology.patient;
+package ru.dixa.patient;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -9,13 +9,16 @@ import java.io.File;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-import ru.netology.patient.entity.*;
-import ru.netology.patient.repository.PatientInfoFileRepository;
-import ru.netology.patient.repository.PatientInfoRepository;
-import ru.netology.patient.service.alert.SendAlertService;
-import ru.netology.patient.service.alert.SendAlertServiceImpl;
-import ru.netology.patient.service.medical.MedicalService;
-import ru.netology.patient.service.medical.MedicalServiceImpl;
+import ru.dixa.patient.entity.BloodPressure;
+import ru.dixa.patient.entity.HealthInfo;
+import ru.dixa.patient.entity.PatientInfo;
+import ru.dixa.patient.entity.*;
+import ru.dixa.patient.repository.PatientInfoFileRepository;
+import ru.dixa.patient.repository.PatientInfoRepository;
+import ru.dixa.patient.service.alert.SendAlertService;
+import ru.dixa.patient.service.alert.SendAlertServiceImpl;
+import ru.dixa.patient.service.medical.MedicalService;
+import ru.dixa.patient.service.medical.MedicalServiceImpl;
 
 public class Main {
 

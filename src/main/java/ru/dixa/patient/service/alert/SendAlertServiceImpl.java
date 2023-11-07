@@ -1,4 +1,4 @@
-package ru.netology.patient.service.alert;
+package ru.dixa.patient.service.alert;
 
 public class SendAlertServiceImpl implements SendAlertService {
 

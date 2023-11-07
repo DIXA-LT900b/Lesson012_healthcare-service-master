@@ -1,8 +1,8 @@
-package ru.netology.patient.service.medical;
+package ru.dixa.patient.service.medical;
 
 import java.math.BigDecimal;
 
-import ru.netology.patient.entity.BloodPressure;
+import ru.dixa.patient.entity.BloodPressure;
 
 public interface MedicalService {
 
